@@ -1,6 +1,6 @@
 /** @format */
 
-import React from 'react';
+// import React from 'react';
 import Cards from './Cards';
 
 function Pizza() {
@@ -9,28 +9,28 @@ function Pizza() {
       <h1 className="text-center"> Pizza Types</h1>
       <div className="row">
         <Cards
-          pizzName="Pepperoni"
-          pizzaText="A timeless favorite featuring zesty pepperoni slices atop a
+          foodName="Pepperoni"
+          pizContent="A timeless favorite featuring zesty pepperoni slices atop a
           layer of gooey cheese."
-          imgSrc="./images/peperoni.jpeg"
+          imgView="./images/peperoni.jpeg"
         />
         <Cards
-          pizzName="BBQ Chicken"
-          pizzaText="Tangy barbecue sauce, grilled chicken, red onions, and a blend
+          foodName="BBQ Chicken"
+          pizContent="Tangy barbecue sauce, grilled chicken, red onions, and a blend
           of cheeses for a smoky flavor."
-          imgSrc="./images/meat.jpeg"
+          imgView="./images/meat.jpeg"
         />
         <Cards
-          pizzName="Margherita"
-          pizzaText="Classic simplicity with tomato, fresh mozzarella, basil, and a
+          foodName="Margherita"
+          pizContent="Classic simplicity with tomato, fresh mozzarella, basil, and a
           drizzle of olive oil. Enjoy the great taste of this special flavor."
-          imgSrc="./images/piz2.jpeg"
+          imgView="./images/piz2.jpeg"
         />
         <Cards
-          pizzName="Vegetarian"
-          pizzaText="Packed with fresh vegetables like bell peppers, onions,
+          foodName="Vegetarian"
+          pizContent="Packed with fresh vegetables like bell peppers, onions,
           mushrooms, and olives Enjoy the great taste of this special flavor."
-          imgSrc="./images/./veg.jpeg"
+          imgView="./images/./veg.jpeg"
         />
       </div>
     </div>
